@@ -1,4 +1,3 @@
-### AS AT SNAKE
 execute if entity @s[scores={lb_anim=59}] as @e[tag=LeggyBird,type=zombie,distance=0..2,sort=nearest,limit=1] run replaceitem entity @s armor.head stick{tag:{CustomModelData:1110}} 1
 execute if entity @s[scores={lb_anim=50}] as @e[tag=LeggyBird,type=zombie,distance=0..2,sort=nearest,limit=1] run replaceitem entity @s armor.head stick{tag:{CustomModelData:1111}} 1
 execute if entity @s[scores={lb_anim=40}] as @e[tag=LeggyBird,type=zombie,distance=0..2,sort=nearest,limit=1] run replaceitem entity @s armor.head stick{tag:{CustomModelData:1110}} 1
