@@ -1,0 +1,17 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+  "layer0": "item/wooden_hoe"
+ },
+
+ "overrides": [
+  { "predicate": { "custom_model_data": 1110}, "model": "entities/leggy_bird_model"},
+  { "predicate": {"custom_model_data": 1111}, "model": "entities/leggy_bird_model2"},
+  { "predicate": { "custom_model_data": 1112}, "model": "entities/leggy_bird_model3"},
+  { "predicate": {"custom_model_data": 1113}, "model": "entities/leggy_bird_attacking1"},
+    { "predicate": { "custom_model_data": 1114}, "model": "entities/leggy_bird_attacking2"}
+
+ ]
+
+
+}
