@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Flashbang",
+            "color": "dark_purple",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "Recipe",
+            "color": "dark_purple",
+            "bold": true,
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{display:{Name:'{\"text\":\"Flashbang\",\"color\":\"gray\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Blinds people in a radius of 10 blocks when it lands.\",\"color\":\"white\",\"bold\":true,\"italic\":true}']},HideFlags:63,CustomModelData:121001,flashbang:1b}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cmd:flashbang_item"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cmd:flashbang/give_flashbang"
+    }
+}

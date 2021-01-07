@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Ender Sword",
+            "color": "dark_purple",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "Recipe",
+            "color": "dark_purple",
+            "bold": true,
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{display:{Name:'{\"text\":\"Ender Sword\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}'},HideFlags:63,Unbreakable:1b,CustomModelData:120001,sword:1,Enchantments:[{id:\"minecraft:sweeping\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;-444312311,-1481815853,-2116615841,918468848],Slot:\"mainhand\"}]}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cmd:ender_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cmd:swords/click_event/give_ender_sword"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cmd:bomb_ball_item"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cmd:bomb_ball/crafted_bomb_ball"
+    }
+}
