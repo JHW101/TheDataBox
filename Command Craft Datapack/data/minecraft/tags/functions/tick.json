@@ -1,6 +1,6 @@
 {
   "values": [
     "cmd:tick",
-    "cmd:main"
+    "leggy_bird:tick"
   ]
 }

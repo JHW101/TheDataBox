@@ -1,0 +1,11 @@
+#built using mc-build (https://github.com/mc-build/mc-build)
+
+execute if score #this.model.anim model.i matches 48 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-115.875f,0f,-180f]
+execute if score #this.model.anim model.i matches 49 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-109.875f,0f,-180f]
+execute if score #this.model.anim model.i matches 50 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-103.5f,0f,-180f]
+execute if score #this.model.anim model.i matches 51 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-97.25f,0f,-180f]
+execute if score #this.model.anim model.i matches 52 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-90.875f,0f,-180f]
+execute if score #this.model.anim model.i matches 53 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-97.442f,0f,180f]
+execute if score #this.model.anim model.i matches 54 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-106.096f,0f,-180f]
+execute if score #this.model.anim model.i matches 55 as @e[type=armor_stand,tag=model.leggy_bird.right_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-114.577f,0f,180f]
+execute if score #this.model.anim model.i matches 48..55 run tp @s ^-0.093 ^-1.098 ^-0.031 ~ ~

@@ -1,5 +1,6 @@
 {
         "values": [
-        "cmd:install/setup"
+        "cmd:install/setup",
+        "leggy_bird:load"
     ]
 }
