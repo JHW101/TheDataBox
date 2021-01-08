@@ -1,0 +1,13 @@
+#built using mc-build (https://github.com/mc-build/mc-build)
+
+execute if score #this.model.anim model.i matches 11 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,91.212f]
+execute if score #this.model.anim model.i matches 12 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,94.731f]
+execute if score #this.model.anim model.i matches 13 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,97.615f]
+execute if score #this.model.anim model.i matches 14 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,100.5f]
+execute if score #this.model.anim model.i matches 15 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,103.327f]
+execute if score #this.model.anim model.i matches 16 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,106.269f]
+execute if score #this.model.anim model.i matches 17 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,109.096f]
+execute if score #this.model.anim model.i matches 18 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,112.038f]
+execute if score #this.model.anim model.i matches 19 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,114.923f]
+execute if score #this.model.anim model.i matches 20 as @e[type=armor_stand,tag=model.leggy_bird.left_leg,distance=..3.84] if score @s model.id = #this.model.id model.i run data modify entity @s Pose.Head set value [-180f,0f,117.923f]
+execute if score #this.model.anim model.i matches 11..20 run tp @s ^-0.036 ^-1.103 ^-0.031 ~ ~
